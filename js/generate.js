@@ -45,8 +45,6 @@ function render_table(headers, rows) {
 		}
 	}
 
-	console.log(n_rows, n_cols);
-
 	// normalise columns
 	for (let r=0;r<n_rows;r++) {
 		for (let c=0;c<n_cols;c++) {
