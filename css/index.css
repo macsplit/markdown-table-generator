@@ -5,3 +5,28 @@ html, body {
 #input, #output {
 	font-family: monospace;
 }
+
+input, textarea {
+	border: solid 1px grey !important;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--bs-body-color: #eee;		
+	}
+	body {
+		background-color: #282828;
+	}
+	input, textarea {
+		background-color: #383838 !important;
+	}
+
+	.btn-primary {
+		background-color: #349;
+	}
+}
+
+html {
+    visibility: visible;
+    opacity: 1;
+}
